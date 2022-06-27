@@ -14,6 +14,11 @@
     src: url(fonts/SuisseIntl-RegularItalic.otf);
 }
 
+@font-face {
+  font-family: minchoFont;
+  src: url(fonts/BIZUDMincho-Regular.ttf);
+}
+
 body {
     color: white;
     background-color: black;
