@@ -57,6 +57,10 @@ a:link {
     text-decoration: underline;
   }
 
+  :target {
+    color: pink;
+}
+
   .overlay {
     position: absolute;
     color: white;
