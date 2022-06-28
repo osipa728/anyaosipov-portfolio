@@ -80,7 +80,7 @@ a:link {
   .text {
     color: white;
     font-family: minchoFont;
-    font-size: 100px;
+    font-size: 6vw;
     /* background-color: black; */
     position: absolute;
     text-decoration: underline;
