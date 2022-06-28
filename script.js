@@ -26,3 +26,19 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// const student = document.getElementById('student');
+//         console.log(student);
+//         // const submarine = document.getElementById('submarine');
+//         // const angles = document.getElementById('angles');
+//         // const urban = document.getElementById('urban');
+//         // const symbiosis = document.getElementById('symbiosis');
+//         console.log('first');
+
+//         student.addEventListener("click", activeLink);
+
+//         function activeLink() {
+//             console.log('clicked');
+//             student.textContent = '→ Student Artist Works';
+//             student.style.color = "#ffc0cb";
+//         }
