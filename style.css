@@ -74,6 +74,11 @@ a:link {
     flex: 25%;
   }
 
+  .info {
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+  }
+
   :target {
     color: pink;
 }
