@@ -70,6 +70,10 @@ a:link {
     /* padding: 5px; */
   }
 
+  .mini-column {
+    flex: 25%;
+  }
+
   :target {
     color: pink;
 }
