@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(window).on('scroll', function() {
+            $("#realcontent").css("left", -$(window).scrollTop());
+        });
+    </script>
 </head>
 <body>
     <div class="page">
@@ -74,6 +80,13 @@
         <div class="div6"> 
             <p>Typography</p>
         </div>
+
+        <div id="realcontent">
+            <p class="rotate">
+                *Years ago a friend of mine had a dream about a strange invention - a staircase you could descend deep underground, in which you heard recordings of all the things anyone had ever said about you, both good and bad. *The catch was, you had to pass through all the worst things people had said before you could get to the highest compliments at the very bottom. *There is no way I would ever make it more than two and a half steps down such a staircase, but I understand its terrible logic - if we want the rewards of being loved we have to submit to the mortifying ordeal of being known.*
+            </p>
+        </div>
+        <div id="fakecontent"></div>
 
         <!-- <ul>
             <li><a href="studentworks.html">Student Artist Works Printed Edition</a></li>

@@ -19,6 +19,11 @@
   src: url(fonts/BIZUDMincho-Regular.ttf);
 }
 
+@font-face {
+  font-family: subFont;
+  src: url(fonts/Submarine-Regular.otf);
+}
+
 body {
     color: white;
     background-color: black;
@@ -206,11 +211,12 @@ ul {
     .div2 { grid-area: 1 / 3 / 2 / 9; mix-blend-mode: difference; }
     .div3 { grid-area: 1 / 10 / 2 / 12; mix-blend-mode: difference; }
     .div4 { grid-area: 2 / 1 / 3 / 3; mix-blend-mode: difference; }
-    .div5 { grid-area: 2 / 3 / 5 / 9; mix-blend-mode: difference; }
+    .div5 { grid-area: 2 / 3 / 5 / 9; }
     .div6 { grid-area: 2 / 10 / 3 / 12; mix-blend-mode: difference; }
 
 .content {
     margin-top: 50px;
+    mix-blend-mode: normal;
 }
 
 
@@ -314,3 +320,28 @@ ul {
     from {opacity: .4}
     to {opacity: 1}
   } */
+
+  #realcontent {
+    /* background-color: #333; */
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 5500px;
+    color: #fff;
+    height: 100px;
+    z-index: -2;
+  }
+  
+  #fakecontent {
+    height: 5500px;
+  }
+  
+  .rotate {
+    /* transform: rotate(-90deg) translate(550px, -600px); */
+    /* color: rgb(25, 24, 24); */
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+    font-family: subFont;
+    font-size: 200px;
+    line-height: 90px;
+  }
